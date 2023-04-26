@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: 'Iosevka Aile Light';
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/Iosevka/6.0.0/iosevka-aile/ttf/iosevka-aile-light.ttf)
+}
+
+@font-face {
+    font-family: 'Iosevka Aile Bold';
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/Iosevka/6.0.0/iosevka-aile/ttf/iosevka-aile-bold.ttf)
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.name {
+    font-family: 'Iosevka Aile Bold', monospace;
+}
+
+.essay-heading {
+    font-family: 'Playfair Display'
+}
+
+.essay {
+    font-family: 'Iosevka Aile Light', serif;
+}
